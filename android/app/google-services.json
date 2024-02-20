@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845379103208",
+    "firebase_url": "https://fir-demo-c2c99-default-rtdb.firebaseio.com",
+    "project_id": "fir-demo-c2c99",
+    "storage_bucket": "fir-demo-c2c99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845379103208:android:2a661981b0842b93abdc5d",
+        "android_client_info": {
+          "package_name": "com.aldoromero.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845379103208-h11k8lgpmr98kdf6mbtm23ldtgrl4s7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxE4reHU27sS0nwHFxf-MWyr-BQQY3TNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845379103208-h11k8lgpmr98kdf6mbtm23ldtgrl4s7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
