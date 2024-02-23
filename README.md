@@ -1,16 +1,34 @@
 # notifications
+Descripción
+Este proyecto te permite implementar notificaciones push en tu aplicación Flutter utilizando Firebase Cloud Messaging (FCM). Puedes recibir notificaciones push de manera efectiva.
 
-A new Flutter project.
+## Requisitos previos
+Antes de ejecutar la aplicación, asegúrate de tener Flutter instalado en tu sistema. Puedes encontrar instrucciones para instalar Flutter [aquí](https://flutter.dev/).
 
-## Getting Started
+## Configuración de Firebase
+Crea un proyecto en Firebase.
 
-This project is a starting point for a Flutter application.
+Registra tu aplicación Flutter en la consola de Firebase como aplicación de flutter, no hacer de forma independiente en android e ios, seguir todos los pasos que indican.
 
-A few resources to get you started if this is your first Flutter project:
+Debes poder ver el archivo firebase_options.dart en tu proyecto.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencias
+Este proyecto hace uso de las siguientes dependencias:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+firebase_core: Configuración central de Firebase.
+
+firebase_messaging: Implementa las notificaciones push con FCM.
+
+firebase_in_app_messaging: Permite mostrar mensajes emergentes de Firebase In-App Messaging.
+
+permission_handler: Gestiona los permisos necesarios para recibir notificaciones push.
+
+Asegúrate de agregar estas dependencias a tu archivo pubspec.yaml:
+
+## Enviar una notificacion
+En el apartado de "Messaging" de Firebase, crearás una nueva campaña y seleccionarás "Mensajes de Firebase Notifications". En el botón "Enviar mensaje de prueba", deberás agregar el token de tu dispositivo. El token se obtiene en la consola al iniciar la aplicación.
+
+
+## Ejecutando la aplicación
+Después de completar la configuración anterior, puedes ejecutar la aplicación con:
+flutter run
